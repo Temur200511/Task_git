@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Krub", sans-serif;
+}
+
+.background{
+    background-color: #091242;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    gap: 244px;
+align-items: center;
+justify-content: center;
+padding: 46px 0;
+margin: auto;
+}
+
+.clock{
+    display: flex;
+    gap: 39px;
+    align-items: center;
+
+}
+
+header p{
+font-size: 14px;
+font-weight: 500;
+line-height: 18.9px;
+color: #FFFFFF;
+}
+
+header a{
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.time, .mail, .phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background_2{
+background-image: url("assets/icons/Photo.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+body a:hover{
+    color: aqua;
+}
+
+.header_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+    position: relative;
+}
+
+.header_2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 45px;
+
+}
+
+ul li{
+    list-style: none;
+
+}
+
+.header_2 a{
+    color: #FFFFFF;
+}
+
+.background_header{
+    background: #09124240;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.soc{
+    display: flex;
+    gap: 50px;
+}
+
+.line{
+    position: absolute;
+    width: 43px;
+height: 2px;
+top: 76px;
+gap: 0px;
+opacity: 0px;
+background-color: #FFFFFF;
+left: 0;
+}
+
+.px_14{
+font-size: 14px;
+font-weight: 400;
+line-height: 16.59px;
+}
+
+.supply{
+    color: #FFFFFF;
+    background-color: #041C3780;
+    border: 1px solid #041C3780;
+    background-color: #041C3780;
+    padding: 3px 9px;
+}
+
+.stick_yellow{
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    width: 4px;
+    height: 23px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.supply_stick{
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    padding-bottom: 120px;
+}
+
+.logistics{
+    margin-top: 173px;
+}
+
+.px_60{
+font-size: 60px;
+font-weight: 700;
+line-height: 71.1px;
+text-align: left;
+padding: 8px 0;
+}
+
+.gate{
+    width: 554px;
+    color: #FFFFFF;
+
+}
+
+.px_16{
+font-size: 16px;
+font-weight: 500;
+line-height: 24.24px;
+text-align: left;
+color: #FFFFFF;
+}
+
+.logistics button{
+ padding: 19px 48px;
+ color: #23212A;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.6px;
+background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+margin-bottom: 218px;
+}
+
+.job{
+    padding: 3px 7px;
+    color: #1C1F35;
+    background-color: #E8E8E880;
+}
+
+.background_3{
+    background-color: #FFFFFF;
+}
+
+section{
+    margin-top: 96px;
+    display: flex;
+   
+    gap: 33px;
+}
+
+.tran_sea{
+    width: 270px;
+}
+
+.followin{
+    color: #666C89;
+    padding-top: 14px;
+}
+
+.services{
+    display: flex;
+    gap: 41px;
+    padding-bottom: 70px;
+}
+
+.px_25{
+font-size: 25px;
+font-weight: 400;
+line-height: 29.63px;
+text-align: left;
+color: #1C1F35;
+}
+
+.px_35{
+font-size: 35px;
+font-weight: 600;
+line-height: 41.48px;
+text-align: left;
+color: #1C1F35;
+}
+
+.left_bottom{
+    display: flex;
+    gap: 41px;
+   
+}
+
+.sea_air{
+    display: flex;
+    gap: 83px;
+}
