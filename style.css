@@ -276,7 +276,9 @@ background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 11
 }
 
 .stick_text{
+    margin-top: 100px;
     display: flex;
+    margin-bottom: 13px;
 }
 
 .leveage
@@ -393,7 +395,7 @@ color: #1C1F35;
     text-align: center;
     margin-top: 97px;
     color: #1C1F35;
-    margin-bottom: 400px;
+    margin-bottom: 250px;
 }
 
 .processes{
@@ -411,11 +413,10 @@ color: #1C1F35;
 
 .background_8{
     background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
-
 }
 
 .container_5{
-    max-width: 1920px;
+    width: 1250px;
     margin: auto;
 height: 400px;
 position: relative;
@@ -434,4 +435,228 @@ position: relative;
 button:hover{
     color: rgba(0, 123, 255, 0.871);
     scale: 1.1;
+}
+
+.color{
+background-color: 
+#F4F4F4;
+}
+
+.gen_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 134px;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.left_customer{
+    margin-top: 102px;
+    width: 456px;
+    background-color: #F4F4F4;
+}
+
+.right_cust{
+    background-color: #091242;
+    margin-top: 102px;
+    width: 456px;
+}
+
+.customer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background_9{
+    background-image: linear-gradient(to right, #1C1F35, #F4F4F4);
+
+}
+
+.container_9{
+    max-width: 1300px;
+margin: auto;
+}
+
+.processes img{
+    width: 240px;
+}
+
+.what{
+    text-align: left;
+}
+.test{
+    text-align: center;
+}
+
+.test_strelk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
+}
+
+.plane{
+    padding-top: 50px;
+    position: relative;
+    z-index: 0;
+}
+
+.airpl{
+ width: 580px;
+}
+
+.across{
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+width: 290px;
+display: flex;
+align-items: center;
+gap: 13px;
+padding: 12px 18px;
+position: absolute;
+bottom: 0;
+z-index: 2;
+left: 150px;
+
+}
+
+.left_plane
+{
+    width: 500px;
+}
+
+.icon_1{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 30px;
+    row-gap: 10px;
+}
+
+.gen_plane{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.team{
+ margin-top: 95px;
+ position: relative;
+}
+
+.exper
+{
+    text-align: center;
+    margin: auto;
+}
+
+.exper_2{
+    position: absolute;
+    left: 50%;
+    top: -160px;
+    transform: translate(-50%, 50%);
+}
+
+.expert_panel{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.background_10{
+    background-color: #091242;
+}
+
+.container_10{
+    max-width: 1200px;
+    margin:     auto;
+}
+
+.con_deatails div {
+display: flex;
+gap: 14px;
+align-items: center;
+}
+
+.left_con{
+    width: 350px;
+}
+
+.con_deatails p{
+    color: #FFFFFF;
+}
+
+.phone_num{
+margin: 30px 0;
+}
+
+.name{
+    padding: 22px 270px 22px 30px;
+    background-color: #091242;
+    border: 0.5px solid #FFFFFF;
+    outline: none;
+}
+
+input p{
+    color: #FFFFFF;
+font-size: 20px;
+font-weight: 400;
+line-height: 18.4px;
+text-align: left;
+
+}
+
+.message{
+    padding: 22px 620px 205px 20px;
+    background-color: #091242;
+    margin-bottom: 31px;
+}
+
+form button{
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+padding: 19px 34px;
+}
+
+.general_con{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-top: 143px;
+    margin-bottom: 70px;
+}
+form{
+    margin-top: 143px;
+
+}
+
+.right_cont{
+    width: 758px;
+}
+
+.gene_in{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+
+}
+
+.name{
+    margin-bottom: 31px;
 }
