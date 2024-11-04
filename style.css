@@ -661,3 +661,12 @@ form{
     margin-bottom: 31px;
 }
 
+.latest{
+    text-align: center;
+}
+
+.stick_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
